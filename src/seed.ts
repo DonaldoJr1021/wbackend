@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import { DataSource } from 'typeorm';
-import { Product } from './modules/product/entities/product.entity';
+import { Product } from './domain/product/product.entity';
 
 const dataSource = new DataSource({
   type: 'postgres',
